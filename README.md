@@ -3,7 +3,9 @@
 Our work is based on the data from the following paper:
 Bagdonaitė L, Leder EH, Lifjeld JT, Johnsen A, Mauvisseau Q. Assessing reliability and accuracy of qPCR, dPCR and ddPCR for estimating mitochondrial DNA copy number in songbird blood and sperm cells. PeerJ. 2025 Apr 11;13:e19278. doi: 10.7717/peerj.19278. PMID: 40231068; PMCID: PMC11995889.
 
-This paper compared the reliability and accuracy of dPCR and ddPCR to quantify low and high concentration of DNA using CVs. According to the paper, the concentration values of mtDNA from dPCR and ddPCR are estimated based on poisson statistics. However, we found that the ideal CVs are inconsistent with the observed ones using the ideal convention parameter. So we firstly constructed a generative model based on poisson distribution, and simulate the process of dPCR and ddPCR using Monte Carlo trials, then conducted the back forward process using ABC-MCMC method to find appropriate convention parameters.
+This paper compared the reliability and accuracy of dPCR and ddPCR to quantify low and high concentration of DNA using CVs. According to the paper, the concentration values of mtDNA from dPCR and ddPCR are estimated based on poisson statistics. 
+
+However, we found that the ideal CVs are inconsistent with the observed ones using the ideal convention parameter. So we firstly constructed a generative model based on poisson distribution, and simulate the process of dPCR and ddPCR using Monte Carlo trials, then conducted the back forward process using ABC-MCMC method to find appropriate convention parameters.
 
 # Implementation
 
