@@ -8,7 +8,7 @@ This paper compared the reliability and accuracy of dPCR and ddPCR to quantify l
 However, we found that the ideal CVs are inconsistent with the observed ones using the ideal convention parameter. So we firstly constructed a generative model based on poisson distribution, and simulate the process of dPCR and ddPCR using Monte Carlo trials, then conducted the back forward process using ABC-MCMC method to find appropriate convention parameters.
 
 # Implementation
-
+Waiting for filling...
 
 # Conclusion and Discussion
 Conclusion:
