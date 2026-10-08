@@ -1,6 +1,6 @@
 # CB2330_Project_Group10
 # Introduction
-Our work is based on the data from the following paper:
+Our work is based on the following paper:
 
 Bagdonaitė L, Leder EH, Lifjeld JT, Johnsen A, Mauvisseau Q. Assessing reliability and accuracy of qPCR, dPCR and ddPCR for estimating mitochondrial DNA copy number in songbird blood and sperm cells. PeerJ. 2025 Apr 11;13:e19278. doi: 10.7717/peerj.19278. PMID: 40231068; PMCID: PMC11995889.
 
