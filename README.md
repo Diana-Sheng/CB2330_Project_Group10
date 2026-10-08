@@ -8,7 +8,13 @@ This paper compared the reliability and accuracy of dPCR and ddPCR to quantify l
 However, we found that the ideal CVs are inconsistent with the observed ones using the ideal convention parameter. So we firstly constructed a generative model based on poisson distribution, and simulate the process of dPCR and ddPCR using Monte Carlo trials, then conducted the back forward process using ABC-MCMC method to find appropriate convention parameters.
 
 # Implementation
-Waiting for filling...
+To run notebook "Project_code.ipynb", you need Python 3.8.2 along with the following standard Python libraries:
+1) numpy: Vectorized standard statistical operations and data handling
+2) matplotlib: Data visualization
+
+You can install all required dependencies via pip:
+```bash
+pip install numpy matplotlib
 
 # Conclusion and Discussion
 Conclusion:
