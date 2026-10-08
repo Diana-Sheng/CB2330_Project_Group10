@@ -15,6 +15,7 @@ To run notebook "Project_code.ipynb", you need Python 3.8.2 along with the follo
 You can install all required dependencies via pip:
 ```bash
 pip install numpy matplotlib
+```
 
 # Conclusion and Discussion
 Conclusion:
