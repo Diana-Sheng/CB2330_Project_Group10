@@ -30,3 +30,4 @@ Model limitations:
 1) 𝜃  is non-identifiable in biochemical level. Model couldn't identify different items contained in  𝜃 .
 
 2) The assumption of treating experimental noise as constant proportionality could be inappropriate especially under super low dilution step, where most of the noise should be additive background noise. It may lead to model failure under low dilution steps.
+3) The model fails under very low dilution steps due to the limitations of the repeat times of simulation and the solution of avoiding log failure by setting cv as 1e-6.
